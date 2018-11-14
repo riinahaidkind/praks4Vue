@@ -10,10 +10,11 @@
 <div class="navigation-bar">
 	<div id="navigation-container">
 		<ul class="header">
-			<li><a href="täna varjupaigas.html" class="active">Täna varjupaigas</a></li>
-			<li><router-link to="/otsin_leidsin">Otsin/leidsin</router-link></li>
-			<li><router-link to="/toetajale">Toetajale</router-link></li>
-			<li><router-link to="/varjupaigast">Varjupaigast</router-link></li>
+		    <li><router-link exact-active-class="active" class="active-class" to="/">Avaleht</router-link></li>
+			<li><router-link exact-active-class="active" class="active-class" to="/tana_varjupaigas">Täna varjupaigas</router-link></li>
+			<li><router-link exact-active-class="active" class="active-class" to="/otsin_leidsin">Otsin/leidsin</router-link></li>
+			<li><router-link exact-active-class="active" class="active-class" to="/toetajale">Toetajale</router-link></li>
+			<li><router-link exact-active-class="active" class="active-class" to="/varjupaigast">Varjupaigast</router-link></li>
 		 </ul>
 	</div>
 </div>

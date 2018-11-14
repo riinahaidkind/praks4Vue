@@ -135,5 +135,12 @@ table tr td {
 iframe {
 	float: left;
 }
+.active-class:hover { 
+    color: white;
+}
 
+.active {
+    opacity: 0.7;
+}
+      
 

@@ -10,15 +10,18 @@
     ümbritsevatele kohalikele omavalitsustele.
     <br>
     <br>
+    <br>
     Siinsetest alammenüüdest on võimalik leida informatsiooni varjupaiga 
     toimimise erinevate tahkude kohta alates kodanikele ja kohalikele 
-    omavalitsustele mõeldud asjaajamisjuhistest kuni lõpetades teabega 
-    teiste Eesti varjupaikade kohta.
+    omavalitsustele mõeldud asjaajamisjuhistest. 
+    <br>
+    <br>
+    <br>
+    Kajastame statistikat, tutvustame varjupaiga töötajaid ja anname infot nende loomade
+    hukkamise viiside kohta, kes endale meie juurest uut peremeest ei leia.
     </p>
 </div>
-</div>
 
-    
 <div class="buttons">
     <button type="button">Kodanikule</button>
     <div class="clearfix"></div>
@@ -31,6 +34,10 @@
     <button type="button">Eutanaasiast</button>
     <div class="clearfix"></div>
 </div>
+</div>
+
+    
+
 </div> 
  
 
@@ -68,8 +75,9 @@ export default {
     
     p {
         font-size: 20px;
-        padding-left: 130px;
-        padding-top: 30px;
+        padding-left: 50px;
+        padding-right: 100px;
+        padding-top: 180px;
     }
     
     .buttons {
@@ -82,7 +90,7 @@ export default {
         padding: 20px;
         color: white;
         border: 0;
-        width: 200px;
+        width: 500px;
         margin-bottom: 50px;
         font-size: 20px;
         text-transform: uppercase;
@@ -90,4 +98,5 @@ export default {
         padding-left: 50px;
     }
 
-</style>    
+</style>   
+

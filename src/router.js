@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from './views/Home.vue';
+import Tana from './views/Tana.vue';
 import Otsin from './views/Otsin.vue';
 import Toetajale from './views/Toetajale.vue';
 import Varjupaigast from './views/Varjupaigast.vue';
@@ -15,6 +16,11 @@ export default new Router({
       path: '/',
       name: 'home',
       component: Home,
+    },
+    {
+      path: '/tana_varjupaigas',
+      name: 'tana',
+      component: Tana,
     },
     {
       path: '/otsin_leidsin',

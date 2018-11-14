@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+	background-color: white;
+	background-attachment: fixed;
+}
+.header {
+	background-color: #6CF7C5;
+	padding: 30px;
+	margin: auto;
+}
+
+.container {
+    margin: auto;
+	width:1140px;
+	/*	top right bottom left*/
+	text-align: center;
+}
+
+.navigation-bar {
+	display: inline;
+}
+
+.header ul {
+	float: left;
+}
+
+.img {
+	float: left;
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-right: 25px;
+}
+
+.navigation-bar {
+	padding: 20px;
+	margin-right: 40px;
+}
+
+.header li {
+	display: inline-block;
+	margin-right: 30px;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.header li a {
+	text-decoration: none;
+	color: black;
+	padding-top: 25px;
+}
+
+.body-img {
+	margin: auto;
+	padding: 50px;
+}
+
+.section {
+	float: right;
+	background-color: #6CF7C5;
+	padding: 100px;
+	margin-right: 40px;
+	}
+
+.bold {
+	font-size: x-large;
+	font-weight: bold;
+	padding: 50px 150px 30px 0px;
+}
+.kontaktandmed {
+	list-style-type: none;
+	margin-bottom: auto;
+}
+
+h2 {
+	padding-bottom: 20px;
+	padding-left: 40px;
+}
+
+table tr td {
+	padding-right: 45px;
+}
+
+.täna-varjupaigas {
+	background-color: #6CF7C5;
+	margin: auto;
+	padding: 50px;
+}
+
+.picture-gallery {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin: 0 auto;
+}
+
+.picture-gallery figure {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.picture h3 {
+	color: white;
+	text-align: center;
+	font-size: x-large;
+}
+	
+.footer {
+	background-color: #E5E5E5;
+	margin-top: 40px;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 40px;
+}
+
+.pangaandmed {
+	list-style-type: none;
+	font-size: x-large;
+	font-weight: bold;
+}
+	
+iframe {
+	float: left;
+}
+
+

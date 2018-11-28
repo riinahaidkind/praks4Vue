@@ -8,14 +8,14 @@
  <div class="button list">
     <ul>
     <li><button type="button">
-    <select>
+    <select class="select-option">
       <option value="kaotatud">Kaotatud</option>
       <option value="leitud">Leitud</option>
     </select>
     </button></li>
     
     <li><button type="button">
-    <select>
+    <select class="select-option">
       <option value="koer">Koer</option>
       <option value="kass">Kass</option>
       <option value="muu">Muu</option>
@@ -23,36 +23,44 @@
     </button></li>
     
     <li><button type="button">
-    <select>
-      <option value="nimi">Nimi</option>
-      <option value="tõug">Tõug</option>
-    </select>
-        </button></li>
-    
-    <li><button type="button">Kiibi number</button></li>
-    
-    <li><button type="button">Vabas vormis kirjeldus</button></li>
+    <input class="select-option" placeholder="Nimi või tõug">
+    </button>
+    </li>
     
     <li><button type="button">
-      <select>
-      <option value="kaotamise">Kaotamise kuupäev</option>
-      <option value="leidmise">Leidmise kuupäev</option>
-      </select>
-    </button></li>
+    <input class="select-option" placeholder= "Kiibi number">
+    </button>
+    </li>
+    
+    <li><button type="button">
+        <textarea class="select-option" placeholder= "Vabas vormis kirjeldus"></textarea>
+    </button>
+    </li>
+    
+    <li><button type="button">
+      <input class="select-option" placeholder= "Kaotamise või leidmise kuupäev">
+      </button>
+      </li>
     </ul>
 </div>  
     
 <div class="subsection">
-     <div style="width:auto;height:670;border:1px solid #000;">       
-  
-   <form action="/action_page.php">
-   
-  Select files: <input type="file" name="myFile" multiple><br><br>
-    </form>
-
-<input type="submit">
-
+     <div style="button">          
+  <input type="file" name="myFile" multiple><br><br>
+        
 </div>
+
+<button type="button">
+    <input class="select-option" placeholder= "Teie telefon">
+    </button>
+
+    <br>
+<button type="button">
+    <input class="select-option" placeholder= "Teie e-mail">
+    </button>
+
+<br>
+<input class="submit" type="submit" value="SAADAN">
 </div>
 </div> 
    
@@ -95,10 +103,12 @@ export default {
     .button list p {
         height: 20px;
         width: 100px;
+        
     }
     
     ul {
         padding-left: 100px;
+        list-style-type: none;
     }
     
     p {
@@ -108,6 +118,7 @@ export default {
         padding-left: 130px;
         padding-right: 50px;
         padding-top: 30px;
+        color: #000000;
     }
     
     .button list {
@@ -117,7 +128,7 @@ export default {
     }
     
     button {
-        background-color: #9F2F2F;
+        background-color: #FFF4F4;
         padding: 20px;
         color: white;
         border: 0;
@@ -129,6 +140,26 @@ export default {
         padding-left: 50px;
     }
     
+    .select-option {
+        padding: 15px;
+        width: 100%;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    
+    .input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+    
+    .submit {
+        background-color: #9F2F2F;
+        border: 0;
+        padding: 20px;
+        color: white;
+    }
 
 
 </style>
